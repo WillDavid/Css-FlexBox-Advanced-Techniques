@@ -1,6 +1,6 @@
-@keyframes animacao {
+@keyframes animation {
 	from {
-		background-color: rgba(255, 0, 0, 0.527);;
+		background-color: rgba(255, 0, 0, 0.527);
 	}
 
 	to {
@@ -8,11 +8,82 @@
 	}
 }
 
+@keyframes animation2 {
+	0% {
+		width:100px
+	}
+	20% {
+		background-color:rgba(23, 77, 226, 0.657);
+		width: 40px;
+	}
+	30% {
+		background-color:rgba(146, 3, 115, 0.774);
+		width:400px;
+	}
+	70%{
+		background-color:rgba(38, 161, 69, 0.89);
+		width:50px;
+	}
+	100%{
+		width:100px;
+		background-color:rgba(190, 66, 28, 0.89);
+		
+	}
 
-.animation-div {
+}
+
+@keyframes animation3{
+	from {
+		left: 0;
+	}
+
+	to {
+		left: 100px;
+		background-color: rgb(56, 5, 5);
+	}
+}
+
+
+.animation-firstDiv {
 	width:100px;
 	height: 100px;
 	background-color: rgba(255, 0, 0, 0.527);
-	animation-name: animacao;
+
+
+	/* Animations details*/
+	animation-name: animation;
 	animation-duration: 10s;
+}
+
+
+.animation-secondDiv {
+	margin-top: 30px;
+
+	width:100px;
+	height:100px;
+	background-color: rgba(110, 8, 136, 0.849);
+
+	position: relative;
+
+
+	animation-name: animation2;
+	animation-duration:10s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+}
+
+
+.animation-thirdDiv {
+	margin-top:30px;
+	width:100px;
+	height: 100px;
+	background-color: rgba(110, 8, 136, 0.849);
+
+	position: relative;
+
+	animation-name:animation3;
+	animation-duration:3s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+
 }
