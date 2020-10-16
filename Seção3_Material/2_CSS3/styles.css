@@ -1,0 +1,18 @@
+@keyframes animacao {
+	from {
+		background-color: rgba(255, 0, 0, 0.527);;
+	}
+
+	to {
+		background-color: rgba(0, 255, 255, 0.4);
+	}
+}
+
+
+.animation-div {
+	width:100px;
+	height: 100px;
+	background-color: rgba(255, 0, 0, 0.527);
+	animation-name: animacao;
+	animation-duration: 10s;
+}
