@@ -1,8 +1,10 @@
-# Css-FlexBox-Advanced-Techniques
+<h1 align="center">Css-FlexBox-Advanced-Techniques</h1>
 
-:computer: <h1> Repositório criado para aumentar os conhecimentos em CSS Flexbox</h1>
+##Sobre o que é esse repositório?
+<p align="center">Repositório criado para aumentar os conhecimentos em CSS Flexbox</p>
 
-<h2>O que eu estou aprendendo? </h2>
+
+<h2 align="center">O que eu estou aprendendo? </h2>
 <p>:one: Os novos elementos do HTML5, como utilizá-los e boas práticas</p>
 <p>:two: As novas regras e propriedades do CSS3, suas utilizações em projetos e também melhores práticas </p>
 <p>:three: Dominar o FlexBox, regras da propriedade, exemplos de uso e projeto prático para fixar a técnica</p>
