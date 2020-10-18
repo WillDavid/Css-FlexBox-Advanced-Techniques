@@ -13,3 +13,5 @@
 <p>Estou estudando por um curso da Udemy denominado: <strong> HTML5 e CSS3: Técnicas Avançadas (Com Flexbox e 5 Projetos)</strong></p>
 <a href="https://www.udemy.com/course/html5-e-css3-tecnicas-avancadas-com-flexbox-e-3-projetos/"><p><strong>Clique aqui para visualizar o curso</strong></p></a>
 
+<h3 align="left"> Minha nota pessoal: :star: :star: :star: :star: :star: </h3>
+
