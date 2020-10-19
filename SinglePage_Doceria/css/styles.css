@@ -63,3 +63,15 @@ a {
 }
 
 
+/* Content Style*/
+
+.content {
+	position: absolute;
+	left: 300px;
+
+	/* Ele vai calcular 100% do width - os 300px da sidebar*/
+	width: calc(100% - 300px);
+
+}
+
+
