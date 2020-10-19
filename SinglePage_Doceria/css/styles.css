@@ -1,0 +1,65 @@
+/* Geral */
+* {
+	color: #373A3C;
+}
+
+html h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	transition: .5s;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: #006599;
+
+	padding-top: 40px;
+}
+
+.logoDoceria {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar h1 {
+	color: #fff;
+	font-size: 32px;
+	text-align:center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sidebar a {
+	color: #fff;
+	text-decoration:none;
+	font-size:16px;
+}
+
+.sidebar a:hover {
+	color: #f4ef5e;
+}
+
+
+.sidebar li {
+	padding: 20px;
+}
+
+/* Só posso colocar margin left right auto quando a posição for relativa*/
+.sidebar-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:200px;
+}
+
+
