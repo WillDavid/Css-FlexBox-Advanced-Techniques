@@ -1,6 +1,7 @@
 /* Geral */
 * {
 	color: #373A3C;
+	padding: 0;
 }
 
 html h1 {
@@ -74,4 +75,39 @@ a {
 
 }
 
+.content h1, .content h2 {
+	color: #006599;
+	margin-bottom: 30px;
+}
+
+.content h1 {
+	font-size: 48px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
+#sectionWelcome {
+	padding-left:0;
+}
+
+.sectionWelcome-content {
+	padding-left: 50px;
+}
+
+#sectionWelcome .banner {
+	height: 500px;
+	background-image: url('../img/banner2.jpg');
+	background-position: center;
+	background-size:cover;
+}
+
+#sectionWelcome h1 {
+	margin-top: 70px;
+}
 
