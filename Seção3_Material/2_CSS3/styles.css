@@ -219,3 +219,136 @@
 	background-color: rgba(17, 0, 255, 0.548);
 	transition:0.5s;
 }
+
+
+/* Calc*/
+
+.div-calc{
+	height: 250px;
+	width: 500px;
+	position: relative;
+	margin: 20px;
+	border: 1px solid #333;
+	background-color:rgb(219, 212, 212);
+}
+
+
+.innerDiv-calc{
+	height: 50px;
+	margin: 10px;
+	background-color:#444;
+}
+
+.calc1 {
+	width: calc(50% + 50px);
+}
+
+.calc2 {
+	width: calc(50% - 50px);
+}
+
+.calc3 {
+	width: calc(10% * 2);
+}
+
+.calc4 {
+	width: calc(80% / 2);
+}
+
+
+/* Gradient*/
+
+
+.gradient-box {
+	width:500px;
+	height: 200px;
+	position: relative;
+	margin:20px;
+
+}
+
+.gradient1 {
+	background-image: linear-gradient(purple,blue);
+}
+
+.gradient2 {
+	background-image: linear-gradient(to right,red,blue);
+}
+
+.gradient3 {
+	background-image: linear-gradient(to left, blue, green);
+}
+
+.gradient4 {
+	background-image: linear-gradient(to top, yellow,blue);
+}
+
+.gradient5 {
+	background-image: linear-gradient(to bottom, yellow, black)
+}
+
+.gradient6 {
+	background-image: linear-gradient(to top right, red,purple, blue, purple, red)
+}
+
+.gradient7 {
+	background-image: radial-gradient(#8423d3, #DB9D47, #02f6b9);
+}
+
+.gradient9 {
+	background-image: radial-gradient(circle, #8423d3 30%, #DB9D47 50%, #02f6b9);
+}
+
+.gradient8 {
+	background-image: radial-gradient(#8423d3, #DB9D47, #02f6b9);
+}
+
+.gradient9 {
+	background-image: radial-gradient(circle, #8423d3 30%, #DB9D47 90%, #02f6b9);
+}
+
+
+/* Font Face*/
+
+@font-face{
+	font-family: "Lage Grafica";
+	src: url(fonts/lage_grafica.ttf);
+}
+
+.font-face {
+	font-family: "Lage Grafica", sans-serif;
+}
+
+/* Media Querey*/
+.mediaquery {
+	height: 200px;
+	width:1200px;
+	background-color:red;
+}
+
+@media (max-width: 1000px) {
+	.mediaquery {
+		width:400px;
+		background-color:blue;
+	}
+}
+
+
+.div-border {
+	
+	width:500px;
+	height: 200px;
+	background-color:green;
+	margin-top: 20px;
+}
+
+
+.border-radius1{
+	border-radius:10px;
+	
+}
+
+.border-radius2{
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
