@@ -23,14 +23,7 @@ a {
 	padding-top: 40px;
 }
 
-.logoDoceria {
-	width: 60px;
-	height: 60px;
-	display: block;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 .sidebar h1 {
 	color: #fff;
@@ -63,13 +56,21 @@ a {
 	width:200px;
 }
 
+.logoDoceria {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 /* Content Style*/
 
 .content {
 	position: absolute;
 	left: 300px;
-
 	/* Ele vai calcular 100% do width - os 300px da sidebar*/
 	width: calc(100% - 300px);
 
@@ -105,9 +106,61 @@ section {
 	background-image: url('../img/banner2.jpg');
 	background-position: center;
 	background-size:cover;
+	/* Adicionar imagem e dar zoom com o cover*/
 }
 
 #sectionWelcome h1 {
 	margin-top: 70px;
 }
+
+#sectionWelcome::after, #sectionAbout::after  {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 100px;
+
+}
+
+.sectionLittleBanner{
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/banner3.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.sectionDescription {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.sectionDescription p {
+	line-height: 2;
+	font-size:16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.sectionWelcome-btn, form input[type="submit"] {
+	background-color: #006599;
+	color: #fff;
+	text-decoration:none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.sectionWelcome-btn:hover, form input[type="submit"]:hover {
+	background-color:#2790C6;
+}
+
+
+
 
