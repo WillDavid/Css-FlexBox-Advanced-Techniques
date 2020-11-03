@@ -162,5 +162,20 @@ section {
 }
 
 
+/* Sessao Sobre*/
+
+#sectionAbout .sectionLittleBanner {
+	float: right;
+	margin-right: 50px;
+	background-image:url('../img/banner4.jpg');
+}
+
+#sectionAbout .sectionDescription {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
+
+
 
 
