@@ -4,6 +4,8 @@
 	padding: 0;
 }
 
+
+
 html h1 {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -175,6 +177,147 @@ section {
 	left: 25px;
 	width: calc(100% - 400px);
 }
+
+
+/* Galerias*/
+
+.bannerGallery {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+}
+
+#sectionCandy01, #sectionCandy02, #sectionCandy03 {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.candy01 {
+	width: 18.8%;
+	margin-left:.5%;
+	margin-right:.5%;
+}
+
+#img01 {
+	background-image: url('../img/galeria1.jpg');
+	margin-left: 0;
+}
+
+#img02 {
+	background-image: url('../img/galeria2.jpg');
+}
+
+#img03 {
+	background-image: url('../img/galeria3.jpg');
+}
+
+#img04 {
+	background-image: url('../img/galeria4.jpg');
+}
+
+#img05 {
+	background-image: url('../img/galeria5.jpg');
+	margin-right: 0;
+}
+
+
+.candy02 {
+	width: 32.3%;
+	margin-left:.5%;
+	margin-right:.5%;
+}
+
+#img06 {
+	background-image: url('../img/galeria6.jpg');
+	margin-left: 0;
+}
+
+#img07 {
+	background-image: url('../img/galeria7.jpg');
+}
+
+#img08 {
+	background-image: url('../img/galeria8.jpg');
+	margin-right: 0;
+}
+
+.candy03 {
+	width: 23.9%;
+	margin-left:.5%;
+	margin-right:.5%;
+}
+
+#img09 {
+	background-image: url('../img/galeria9.jpg');
+	margin-left: 0;
+}
+
+#img10 {
+	background-image: url('../img/galeria10.jpg');
+}
+
+#img11 {
+	background-image: url('../img/galeria11.jpg');
+}
+
+#img12 {
+	background-image: url('../img/galeria12.jpg');
+	margin-right: 0;
+}
+
+
+/* Contato */
+
+
+#formContact {
+	width:500px;
+}
+
+#formContact input[type=text], #formContact input[type=email], #formContact textarea {
+	display: bloack;
+	border: 1px solid #006599;
+	padding: 10px;
+	margin-bottom: 20px;
+	width:100%;
+	font-size:16px;
+	font-family: 'Open sans', sans-serif;
+}
+
+#formContact input[type=text]:focus, #formContact input[type=email]:focus, #formContact textarea:focus {
+	border-color: #2790C6;
+
+}
+
+#formContact textarea {
+	height: 150px;
+}
+
+#formContact ::placeholder {
+	color: #2790C6;
+}
+
+#formContact input[type=submit]{
+	margin-left: 0;
+	font-size:16px;
+	width:180px;
+}
+
+/* Footer*/
+
+footer {
+	height: 100px;
+	padding-top: 150px;
+
+}
+
+footer p {
+	color: #006599;
+	text-align: center;
+	font-weight: bold;
+}
+
+
 
 
 

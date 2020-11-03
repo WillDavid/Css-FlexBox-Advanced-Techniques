@@ -1,0 +1,45 @@
+* {
+	margin:  0;
+	padding: 0;
+}
+body{
+	background-color:#DDD;
+}
+
+.container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.box {
+	height: 100px;
+	width: 100px;
+}
+
+.first{
+	background-color: red;
+	align-self: center;
+
+
+}
+
+.second{
+	background-color:blue;
+	align-self: flex-start;
+
+
+}
+
+.third{
+	background-color:green;
+	align-self: flex-end;
+
+
+	
+}
+
