@@ -4,9 +4,109 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/77afa6bd07.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
 	<title>Whatsapp Web - PP03</title>
 </head>
 <body>
+	<div class="container">
+		<aside class="sidebar">
+			<div class="tollbar-container">
+				<img class="user-photo" src="img/avatar1.png" alt="foto do usuario"/>
+
+				<div class="auxicons-toolbar-container">
+					<i class="fa fa-spinner"></i>
+					<i class="fa fa-comment-alt"></i>
+					<i class="fa fa-ellipsis-v"></i>
+				</div>
+			</div>
+
+			<div class="notification-container">
+				<i class="fas fa-bell-slash"></i>
+				<p class="receive-notification">Receba notificaçoes de novas mensagens</p>
+				<p class="activate-notification">Ativar notificações na área de trabalho
+					<i class="fas fa-angle-right"></i>
+				</p>
+			</div>
+			<div class="search-container">
+				<i id="contact-search" class="fa fa-search"></i>
+				<input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa"/>
+			</div>
+			<div class="contacts-container">
+
+				<div class="contact-box active-chat">
+					<img class="user-photo" alt="Foto conversa" src="./img/avatar4.png">
+					<div class="user-info">
+						<p class="user-name">Sabrina Tavares</p>
+						<p class="user-messagepreview">
+							<i class="fa fa-check-double"></i> Oi, tudo bem?</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">22:40</p>
+					</div>
+				</div>
+
+
+
+				<div class="contact-box">
+					<img class="user-photo" alt="Foto conversa" src="./img/avatar3.png">
+					<div class="user-info">
+						<p class="user-name">Luiz Paulo</p>
+						<p class="user-messagepreview">Vamos comer pastel?</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">23:59</p>
+						<p class="message-pending">1</p>
+					</div>
+				</div>
+
+
+				<div class="contact-box">
+					<img class="user-photo" alt="Foto conversa" src="./img/avatar1.png">
+					<div class="user-info">
+						<p class="user-name">Kit Kat</p>
+						<p class="user-messagepreview">Cadê o meu dinheiro?</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">18:30</p>
+						<p class="message-pending">3</p>
+					</div>
+				</div>
+
+			</div>
+
+		</aside>
+
+		<main class="chat-container">
+			<nav class="chat-navbar">
+				<div class="contactinfo-container">
+					<img class="user-photo" src="img/avatar2.png" alt="">
+					<p class="user-name">Sabrina Tavares</p>
+				</div>
+				<ul class="chattols-container">
+					<li><i class="fas fa-search"></i></li>
+					<li><i class="fas fa-paperclip"></i></li>
+					<li><i class="fas fa-ellipsis-v"></i></li>
+				</ul>
+			</nav>
+
+			<div class="messages-container">
+				<div class="bg-image"></div>
+				<div class="chat-messages">
+					<p class="guest-message">Olá, bom dia</p>
+					<p class="user-message">Oi, tudo bem?</p>
+				</div>
+			</div>
+
+			<div class="sendmessage-container">
+				<i class="fas fa-grin"></i>
+				<input id="chatmessage" type="text" name="message" class="userinput" placeholder="Envie a sua mensagem">
+				<i class="fas fa-microphone"></i>
+			</div>
+
+
+		</main>
+	</div>
 
 
 
