@@ -1,4 +1,4 @@
-<h1 align="left">Css-FlexBox-Advanced-Techniques</h1>
+<h1 align="left">Css-FlexBox-Advanced-Techniques <strong>(Finalizado)</strong></h1>
 
 <p align="left">:computer: Repositório criado para aumentar os conhecimentos em CSS Flexbox</p>
 
@@ -15,5 +15,6 @@
 
 <h3 align="left"> Minha nota pessoal: :star: :star: :star: :star: :star: </h3>
 
+<h3 align="left">:alien: Galeria do Projeto </h3>
 <img src="https://i.ibb.co/xLVBcPy/Design-UI.gif">
 
