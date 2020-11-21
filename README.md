@@ -16,5 +16,5 @@
 <h3 align="left"> Minha nota pessoal: :star: :star: :star: :star: :star: </h3>
 
 <h3 align="left">:alien: Galeria do Projeto </h3>
-<img src="https://i.ibb.co/xLVBcPy/Design-UI.gif">
+<img align="left" src="https://i.ibb.co/xLVBcPy/Design-UI.gif">
 
